@@ -43,7 +43,4 @@ try:
     print(presigned_url)
 except Exception as e:
     print(f"Failed to generate presigned URL: {e}")
-import boto3
-import requests
-
 
